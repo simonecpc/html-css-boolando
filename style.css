@@ -1,0 +1,82 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* layout */
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.col {
+    width: calc(100%/3);
+    padding: 5px;
+}
+
+img {
+    width: 475px;
+}
+
+.product {
+    position: relative;
+}
+
+.discount {
+    position: absolute;
+    bottom:100px;
+    left: 0;
+}
+
+.bg-red {
+    background-color: red;
+    color: white;
+    padding: 5px;
+}
+
+.sost-disc {
+    background-color: green;
+    color: white;
+    padding: 5px;
+    position: absolute;
+    bottom: 100px;
+    left: 50px;
+}
+
+.prezzo-scontato {
+    color: red;
+}
+
+.prezzo-originale {
+    text-decoration: line-through;
+}
+
+.sost {
+    background-color: green;
+    color: white;
+    padding: 5px;
+    position: absolute;
+    bottom: 100px;
+}
+
+.heart {
+    position: absolute;
+    top: 20px;
+    right: 15px;
+    font-size: 24px;
+    background-color: white;
+    padding: 10px;
+    padding-left: 15px;
+}
+
+.heart:hover {
+    color: red;
+    cursor: pointer;
+}
