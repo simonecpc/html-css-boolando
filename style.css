@@ -80,3 +80,15 @@ img {
     color: red;
     cursor: pointer;
 }
+
+.sez-foto-2 {
+    display: none;
+}
+
+.product:hover .sez-foto-1{
+    display: none;
+}
+
+.product:hover .sez-foto-2{
+    display: block
+}
